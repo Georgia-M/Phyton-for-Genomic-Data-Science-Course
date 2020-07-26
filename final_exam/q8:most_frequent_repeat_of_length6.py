@@ -25,13 +25,13 @@ def get_all_repeats(sequence):
         repeats.append(sequence[i:i + 6])
     return repeats
 
-all_six_repearts = []
+all_six_repeats = []
 for i in sequences:
     repeats_list = get_all_repeats(i)
     for j in repeats_list:
-        all_six_repearts.append(j)
+        all_six_repeats.append(j)
 
 def most_common(lst):
     return max(set(lst), key=lst.count)
 
-print(all_six_repearts.count(most_common(all_six_repearts)))
+print(all_six_repeats.count(most_common(all_six_repeats)))
