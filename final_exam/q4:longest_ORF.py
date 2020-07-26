@@ -43,7 +43,6 @@ def find_orf_2(sequence):
                 break
     return orf
 
-n = 1
 lengths = []
 for i in sequences:
     orfs = find_orf_2(i)
