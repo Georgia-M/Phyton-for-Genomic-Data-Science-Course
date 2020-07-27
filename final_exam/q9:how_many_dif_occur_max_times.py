@@ -44,7 +44,6 @@ no_max=all_twelve_repeats.count(most_common(all_twelve_repeats))
 #print(no_max)
 
 #find how many different sequences occur no_max times
-different_list = []
 k=0
 for i in all_twelve_repeats:
     if i.count(most_common(i))==no_max:
